@@ -1,0 +1,6 @@
+#include "winver.h"
+
+128		ICON		DISCARDABLE	"vcnrs.ico"
+IDI_ICON1		ICON		DISCARDABLE	"vcnrs.ico"
+
+#include "../global.rc"

@@ -1,0 +1,13 @@
+#ifndef THIRDPARTY_GLOBAL
+#define THIRDPARTY_GLOBAL
+
+#include <qglobal.h>
+
+#ifdef THIRDPARTY_LIB
+# define THIRDPARTY_EXPORT Q_DECL_EXPORT
+#else
+# define THIRDPARTY_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // THIRDPARTY_GLOBAL
+
